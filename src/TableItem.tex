@@ -1,0 +1,16 @@
+\newcommand{\rReference}[6]{
+    \begin{flushleft}
+        \vspace{-5pt}
+        \begin{tabularx}{\textwidth}{@{}X X@{\hspace{8pt}}}
+            \begin{tabular}[t]{@{}l@{}}
+                \hspace{8pt}\textbf{#1} \\ % name
+                \hspace{8pt}{\textit{#2}}, {#3} \\ % company
+                \hspace{8pt}{\href{tel:#4}{#4}} \\ % phone
+                \hspace{8pt}{\href{mailto:#5}{#5}} \\ % email
+            \end{tabular} & {#6}
+        \end{tabularx}
+        \vspace{-5pt}
+
+        \hrulefill
+    \end{flushleft}
+}
