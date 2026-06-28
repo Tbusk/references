@@ -3,7 +3,6 @@
 This is a references template I created with my twist that is:
 
 - Single-page
-- One column
 - Made up of modular components, of which the underlying details are abstracted
 
 ## Preview
